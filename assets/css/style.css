@@ -1,0 +1,22 @@
+.img {
+  width: 150px;
+  height: 150px;
+}
+
+#crystal-main {
+  width: 650px;
+  height: 500px;
+  border: 2px solid gray;
+  padding: 25px;
+  background: black;
+  color: whitesmoke;
+}
+
+body {
+  color: blue;
+  align-content: center;
+}
+
+h1 {
+  color: blueviolet;
+}
