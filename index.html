@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <title>Crystal Game</title>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <script src="assets\javascript\game.js.js"></script>
+  </head>
+
+  <body>
+    <h1>Crystals Collector!</h1>
+
+    <div class="container" id="crystal-main">
+      <div class="row">
+        <h2>Target Number: <span id="target-score"></span></h2>
+      </div>
+      <div class="row">
+        <h2>Your Number: <span id="user-score"></span></h2>
+      </div>
+      <div class="row">
+        <div class="col-3-md crystal">
+          <img
+            src="assets/images/bluediamond.jpg"
+            alt="blue"
+            class="img"
+            id="blue"
+          />
+        </div>
+        <div class="col-3-md crystal">
+          <img
+            src="assets/images/greendiamond.jpg"
+            alt="green"
+            class="img"
+            id="green"
+          />
+        </div>
+        <div class="col-3-md crystal">
+          <img
+            src="assets/images/reddiamond.png"
+            alt="red"
+            class="img"
+            id="red"
+          />
+        </div>
+        <div class="col-3-md crystal">
+          <img src="assets/images/pink.jpg" alt="pink" class="img" id="pink" />
+        </div>
+      </div>
+      <div class="row">
+        <h4>Win Count: <span id="wins"></span></h4>
+      </div>
+      <div class="row">
+        <h4>Loss Count: <span id="losses"></span></h4>
+      </div>
+    </div>
+  </body>
+</html>
